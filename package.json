@@ -4,7 +4,9 @@
   "description": "Cookie authentication with Next.js",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "heroku-postbuild": "next build"
   },
   "repository": {
     "type": "git",
